@@ -36,3 +36,18 @@
 .card:hover {
   transform: translateY(-10px);
 }
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  .product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}

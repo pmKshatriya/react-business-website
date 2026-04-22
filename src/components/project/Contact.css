@@ -50,3 +50,16 @@
   border: none;
   border-radius: 10px;
 }
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-map iframe {
+    width: 100%;
+  }
+}
