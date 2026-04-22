@@ -1,0 +1,38 @@
+.product {
+  padding: 50px;
+  text-align: center;
+}
+
+.product h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* Container */
+.product-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Card */
+.card {
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f9f9f9;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Image */
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Hover */
+.card:hover {
+  transform: translateY(-10px);
+}

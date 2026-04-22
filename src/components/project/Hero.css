@@ -1,0 +1,43 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  gap: 40px;
+}
+
+/* Left Image */
+.hero-left img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+/* Right Text */
+.hero-right {
+  max-width: 500px;
+}
+
+.hero-right h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero-right p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.hero-right button {
+  padding: 10px 20px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero-right button:hover {
+  background: #1e40af;
+}

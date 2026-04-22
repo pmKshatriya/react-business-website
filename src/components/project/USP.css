@@ -1,0 +1,46 @@
+.usp {
+  padding: 60px 20px;
+  background: #f1f5f9; /* light background */
+  text-align: center;
+}
+
+.usp h2 {
+  margin-bottom: 40px;
+  font-size: 28px;
+  color: #0f172a;
+}
+
+/* Container */
+.usp-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Cards */
+.usp-card {
+  width: 260px;
+  padding: 25px;
+  border-radius: 12px;
+  background: #ffffff; /* white card */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+/* Title */
+.usp-card h3 {
+  margin-bottom: 10px;
+  color: #1e40af;
+}
+
+/* Text */
+.usp-card p {
+  color: #555;
+}
+
+/* Hover */
+.usp-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}

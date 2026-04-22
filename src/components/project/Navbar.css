@@ -1,0 +1,70 @@
+/* Navbar main */
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(to right, #2563eb, #1e40af);
+  color: white;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Container */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+/* Logo section */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Logo image */
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+/* Menu items */
+.menu li a {
+  text-decoration: none;
+  color:white;
+  /* cursor: pointer;
+  position: relative;
+  transition: 0.3s; */
+}
+
+/* Hover underline effect */
+.menu li::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: white;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+.menu li:hover::after {
+  width: 100%;
+}
+
+/* Hover color */
+.menu li:hover {
+  color: #dbeafe;
+}
