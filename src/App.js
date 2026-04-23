@@ -1,12 +1,12 @@
 import React from 'react';
-import Navbar from "./components/project/Navbar";
-import Hero from "./components/project/Hero";
-import MarqueeText from "./components/project/MarqueeText";
-import Product from "./components/project/Product";
-import About from "./components/project/About";
-import USP from "./components/project/USP";
-import Contact from "./components/project/Contact";
-import Footer from "./components/project/Footer";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import MarqueeText from "./components/MarqueeText";
+import Product from "./components/Product";
+import About from "./components/About";
+import USP from "./components/USP";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return ( 
